@@ -11,8 +11,6 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  scroll-behavior: smooth;
-  font-size: 62.5%;
 }
 
 /* Sections
@@ -24,11 +22,6 @@ html {
 
 body {
   margin: 0;
-  color: var(--text-color);
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-base);
 }
 
 /**
@@ -367,18 +360,18 @@ template {
   box-sizing: border-box;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-} */
+}
 
-/* body {
+body {
   color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
-} */
+}
 
 a:link {
   color: var(--text-color);
