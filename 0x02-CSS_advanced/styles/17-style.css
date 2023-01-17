@@ -437,6 +437,10 @@ a:active {
   margin-right: auto;
 }
 
+.footer {
+  padding: var(--footer-padding);
+}
+
 h1,
 h2,
 h3,
