@@ -398,9 +398,9 @@ a:active {
   color: var(--color-primary);
 }
 
-.section {
+/* .section {
   padding: var(--section-padding);
-}
+} */
 
 .section-header {
   text-align: var(--section-header-align);
@@ -437,9 +437,9 @@ a:active {
   margin-right: auto;
 }
 
-/* .footer {
+.footer {
   padding: var(--footer-padding);
-} */
+}
 
 h1,
 h2,
